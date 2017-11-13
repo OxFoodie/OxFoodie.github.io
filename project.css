@@ -4,6 +4,13 @@ h1 {
 body {
 	cursor: url('fork.png'), default;
 }
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
 .jumbotron {
 	color: rgba(10, 120, 140, 1);
 	font-family: 'Swallow_Falls', cursive;
