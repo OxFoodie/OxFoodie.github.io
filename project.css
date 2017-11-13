@@ -1,6 +1,9 @@
 h1 {
 	color : orange;
 }
+body {
+	cursor: url('leaf2.png'), default;
+}
 .jumbotron {
 	color: rgba(10, 120, 140, 1);
 	font-family: 'Swallow_Falls', cursive;
