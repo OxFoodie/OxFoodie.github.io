@@ -12,6 +12,7 @@ ul {
 }
 li {
 	display: inline;
+	padding: 0px 10px 0px 10px;
 }
 .jumbotron {
 	color: rgba(10, 120, 140, 1);
