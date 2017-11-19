@@ -10,6 +10,9 @@ ul {
 	padding: 0;
 	overflow: hidden;
 }
+li {
+	display: inline;
+}
 .jumbotron {
 	color: rgba(10, 120, 140, 1);
 	font-family: 'Swallow_Falls', cursive;
