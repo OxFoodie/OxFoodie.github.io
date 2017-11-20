@@ -43,6 +43,19 @@ div {
   position: relative;
   border-radius: 12px;
 }
+.describe {
+  color: rgba(255,255,255,1);
+  background: BLACK;
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 0px;
+  width:427.91px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
 .MammaMia {
 	background: url("http://independentoxford.com/wp-content/uploads/bfi_thumb/mamma-mia-sm-nag3qvmb2fhyx4nxvg6dzy0go88zegmroq8ktw1xgs.jpg");
 }
