@@ -6,6 +6,9 @@ h1 {
 	font-size: 120px;
 	margin: 0px;
 }
+p {
+	font-size: 30px;
+}
 a {
 	color: white;
 	font-size: 20px;
