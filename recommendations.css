@@ -34,6 +34,13 @@ li {
 .features {
 	float: left;
 	padding: 0px 0px 10px 0px;
+div {
+  height: 200px;
+  background-size: cover;
+  margin: 40px 0 0 0;
+  position: relative;
+  border-radius: 12px;
+  }
 }
 .MammaMia {
 	background: url("http://independentoxford.com/wp-content/uploads/bfi_thumb/mamma-mia-sm-nag3qvmb2fhyx4nxvg6dzy0go88zegmroq8ktw1xgs.jpg");
