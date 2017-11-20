@@ -6,7 +6,7 @@ a {
 }
 .container {
 	text-align: center;
-	background: url('http://www.oxford-panoramas.co.uk/myimages/oxmistsl.jpg'); 
+	background: url("http://www.oxford-panoramas.co.uk/myimages/oxmistsl.jpg"); 
 	background-size: cover;
 	color: white
 }
