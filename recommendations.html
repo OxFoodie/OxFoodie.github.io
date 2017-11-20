@@ -3,8 +3,7 @@
 	<head>
 		<title>Recommendations</title>
 		<link href='recommendations.css' rel='stylesheet'>
-
-		
+		<script src="/assets/jquery.js"></script>
 	</head>
 	<body>
 		<header>
@@ -56,6 +55,9 @@
 		<div class="Gees">
 		<p class="describe"> GEES RESTAURANT AND BAR <span class="price">£££</span><br /> <small> DESCRIPTION</small> </p>
 	</div>
+<script>
+  $('div').on('click', function() {$(this).toggleClass('show-description'); });
+</script>
 	
 </body>
 
