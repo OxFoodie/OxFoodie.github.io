@@ -1,37 +1,28 @@
-h1 {
-	color : orange;
-}
 body {
-	cursor: url('fork.png'), default;
+	font-family: helvetica, sans-serif;
+}
+a {
+	color: white;
+}
+.container {
+	text-align: center;
+	background: rgba(10, 120, 140, 1); 
+	background-image: img src='oxfordskyline.jpg';
+	background-size: cover;
+	color: white
 }
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+        padding: 20px;
+	background: rgba(243, 250, 182, 0.5);    
 }
 li {
 	display: inline;
 	padding: 0px 10px 0px 10px;
 }
-.jumbotron {
-	color: rgba(10, 120, 140, 1);
-	font-family: 'Swallow_Falls', cursive;
-	text-align: center;
-	background: rgba(243, 250, 182, 0.8);
-    margin: 0px;
+.socialmedia {
+	float: right;
+	padding: 0px 0px 10px 0px;
 }
-.navbar-default {
-    background: rgba(243, 250, 182, 0.5);
-    border: rgba(224, 236, 139, 0);
-    margin-top: 30px;
-    border-radius: 0px;
-    padding-top: 10px;
-}
-
-.navbar-default .navbar-nav > li > a {
-    font-family: 'Swallow_Falls';
-    color: rgba(0, 0, 255, 0.8);
-    text-align: center;
-    font-size: 25px;
+.features {
+	float: left;
 }
