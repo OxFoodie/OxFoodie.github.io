@@ -1,6 +1,10 @@
 body {
 	font-family: 'Swallow_Falls', cursive;
 }
+h1 {
+	font-size: 70px;
+	padding: 40px, auto;
+}
 a {
 	color: white;
 }
