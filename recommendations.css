@@ -56,6 +56,9 @@ div {
   bottom: 0;
   margin: 0;
 }
+.price {
+	float:right;
+}
 .MammaMia {
 	background: url("http://independentoxford.com/wp-content/uploads/bfi_thumb/mamma-mia-sm-nag3qvmb2fhyx4nxvg6dzy0go88zegmroq8ktw1xgs.jpg");
 }
