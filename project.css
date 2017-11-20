@@ -8,7 +8,7 @@ a {
 	color: white;
 	font-size: 10px;
 }
-.container {
+header {
 	text-align: center;
 	background: url("http://www.oxford-panoramas.co.uk/myimages/oxmistsl.jpg"); 
 	background-size: cover;
