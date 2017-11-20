@@ -6,8 +6,7 @@ a {
 }
 .container {
 	text-align: center;
-	background: rgba(10, 120, 140, 1); 
-	background-image: img src='oxfordskyline.jpg';
+	background: url('http://www.oxford-panoramas.co.uk/myimages/oxmistsl.jpg'); 
 	background-size: cover;
 	color: white
 }
