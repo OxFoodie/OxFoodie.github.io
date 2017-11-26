@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>OxFoodie</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<link href='project.css' rel='stylesheet'>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109956377-1"></script>
@@ -31,6 +32,83 @@
 			</span>
 			</ul>
 		</header>
+<!-- Carousel -->
+	<div class="container">
+		<br>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+			</ol>
+		<!-- wrapper for slides -->
+			<!-- Active slide 1 -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<a href="#">
+					<img src="images/studyimage9.jpg" alt="Testimonial" class="carousel-image"></a>
+					<div class="carousel-caption" id="welcome">
+						<h3>Welcome to ExcelTutoring</h3>
+						<p>A 5* tutoring business run by me, Davina</p>
+					</div>
+				</div>
+			<!-- slide 2 -->
+				<div class="item">
+					<a href="#">
+					<img src="images/studyimage7.jpg" alt="Testimonial" class="carousel-image"></a>
+					<div class="carousel-caption testimonial">
+						<blockquote>
+						<p>Davina responded very quickly, was flexible with times and is getting on very well with my daughter. She is organised, punctual and seems to really know her stuff. My daughter really likes her and says that her work is improving.</p>
+						<footer> Rosa </footer></blockquote>
+					</div>
+				</div>
+			<!--slide 3-->
+				<div class="item">
+					<a href="#">
+					<img src="images/studyimage3.jpg" alt="Testimonial" class="carousel-image"></a>
+					<div class="carousel-caption testimonial">
+						<blockquote>
+						<p>I would highly recommend Davina as a tutor. She works diligently, prepares her lessons beforehand, is very systematic and knowledgeable. I have seen a tremendous improvement in both my kids' performance (all three sciences) in such a short span of time. A big thank you to Davina!</p>
+						<footer> Anmol </footer></blockquote>
+					</div>
+				</div>
+			<!-- slide 4 -->
+				<div class="item">
+					<a href="#">
+					<img src="images/studyimage1.jpg" alt="Testimonial" class="carousel-image"></a>
+					<div class="carousel-caption" id="contact">
+						<h3> Get in contact </h3>
+						<p>if you are interested in working together!</p>
+						<div id="contact-button" class="col-md-12 text-center">
+							<a href="Contactme.html" class="btn btn-info btn-lg" role="button">Enquire now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+
+$('#myCarousel').hover(
+    function() {
+        $(this).carousel('pause');
+    },
+    function() {
+        $(this).carousel('cycle');
+    }
+);
+</script>
 	
 </body>
 
