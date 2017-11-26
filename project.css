@@ -36,3 +36,54 @@ li {
 	padding: 0px 0px 10px 0px;
 
 }
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    line-height: 1;
+    width: 100%;
+}
+.item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-image {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#myCarousel h3, blockquote {
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+}
+
+#myCarousel p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+
+.carousel-caption {
+    float: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+blockquote {
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-top: 2px solid #ffb300;
+    border-bottom: 2px solid #ffb300;
+}
+blockquote footer {
+    color: #ffb300;
+}
+.testimonial {
+    top:50%;
+    transform: translateY(-50%);
+    bottom:initial;
+}
