@@ -1,18 +1,18 @@
-+body {
- +	font-family: 'Swallow_Falls', cursive;
- +	background: rgb(253, 231, 26);
- +}
- +h1 {
- +	font-size: 120px;
- +	margin: 0px;
- +}
- +p {
- +	font-size: 30px;
- +}
- +a {
- +	color: white;
- +	font-size: 20px;
- +}
+body {
+ font-family: 'Swallow_Falls', cursive;
+ background: rgb(253, 231, 26);
+ }
+ h1 {
+ font-size: 120px;
+ margin: 0px;
+ }
+ p {
+ font-size: 30px;
+ }
+ a {
+ color: white;
+ font-size: 20px;
+ }
   header {
   	text-align: center;
   	background: url("http://www.oxford-panoramas.co.uk/myimages/oxmistsl.jpg"); 
@@ -27,13 +27,13 @@
   li {
   	display: inline;
   	padding: 0px 10px 0px 10px;
- +}
- +.socialmedia {
- +	float: right;
- +	padding: 0px 0px 10px 0px;
- +}
- +.features {
- +	float: left;
- +	padding: 0px 0px 10px 0px;
- +
- +}
+ }
+ .socialmedia {
+ float: right;
+ padding: 0px 0px 10px 0px;
+ }
+ .features {
+ 	float: left;
+ padding: 0px 0px 10px 0px;
+ 
+ }
